@@ -17,7 +17,7 @@ public class Books {
 
     public static void main(String[] args) {
         final Random random = new Random();
-
+	System.out.println("Books.java");
         // Creates a new book resource, will return the ID to the created resource
         // author and title are sent as query parameters e.g. /books?author=Foo&title=Bar
         post("/books", (request, response) -> {

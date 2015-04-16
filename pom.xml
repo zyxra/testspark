@@ -11,10 +11,6 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.mainClass>com.microtest.testspark.Books</project.mainClass>
-  </properties>
-
-  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -53,7 +49,8 @@
           <target>8</target>
         </configuration>
       </plugin>
-<plugin>
+<!--
+	<plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
@@ -70,6 +67,7 @@
           </systemProperties>
         </configuration>
       </plugin>
+-->
     </plugins>
   </build>
 </project>

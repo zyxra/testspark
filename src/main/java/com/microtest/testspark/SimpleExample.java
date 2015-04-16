@@ -7,7 +7,7 @@ import static spark.Spark.*;
 public class SimpleExample {
 
     public static void main(String[] args) {
-
+        System.out.println("Simple example");
         //  setPort(5678); <- Uncomment this if you wan't spark to listen on a port different than 4567.
 
         get("/hello", (request, response) -> "Hello World!");
