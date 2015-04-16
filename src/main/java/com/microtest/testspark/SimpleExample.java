@@ -1,3 +1,4 @@
+package com.microtest.testspark;
 import static spark.Spark.*;
 
 /**
